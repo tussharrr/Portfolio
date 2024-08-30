@@ -1,0 +1,40 @@
+/* src/components/Education.css */
+
+/* Slide in from the left */
+@keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Fade in effect */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Apply animation to the section */
+  .experience {
+    animation: fadeIn 1s ease-out;
+  }
+  
+  /* Apply slide-in effect to text containers */
+  .experience div {
+    animation: slideInLeft 1s ease-out;
+  }
+  
+  /* Fade in logos with a delay */
+  .experience img {
+    animation: fadeIn 1s ease-out;
+    animation-delay: 0.5s; /* Optional delay for logos */
+  }
+  

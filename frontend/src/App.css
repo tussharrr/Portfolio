@@ -1,0 +1,70 @@
+/* src/main.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+section {
+  padding: 60px 20px;
+  margin-top: 50px;
+}
+
+.home {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.home h1 {
+  font-size: 48px;
+}
+
+.home p {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.btn {
+  background-color: #e91e63;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #d81b60;
+}
+
+/* Sections Styling */
+.experience, .projects, .education, .skills, .interests, .contact {
+  background-color: #fff;
+  padding: 40px 20px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #eee;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}

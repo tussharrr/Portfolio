@@ -1,0 +1,22 @@
+/* src/components/Education.css */
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .education {
+    animation: fadeInUp 1s ease-out;
+  }
+  
+  .education-container {
+    animation: fadeInUp 1s ease-out;
+    animation-delay: 0.2s; /* Delay for each container */
+  }
+  

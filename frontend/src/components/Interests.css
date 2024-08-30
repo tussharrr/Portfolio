@@ -1,0 +1,39 @@
+/* Styles for the Interests component */
+.interests {
+    background-color: #623AA2; /* Light background color */
+    padding: 40px 20px; /* Spacing around the section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 6000px; /* Max width for the section */
+    margin: 0 auto; /* Center the section */
+  }
+  
+  .interests h2 {
+    color: #070707; /* Darker color for the heading */
+    font-size: 2em; /* Larger font size for the heading */
+    margin-bottom: 20px;
+    font-weight: bold; /* Space between heading and list */
+    text-align: left; /* Center align the heading */
+  }
+  
+  .interests ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .interests li {
+    font-size: 1.2em; /* Slightly larger font for list items */
+    color: #555; /* Medium-dark color for list items */
+    margin-bottom: 10px; /* Space between list items */
+    padding: 10px 10px; /* Padding inside list items */
+    border-bottom: 1px solid #ddd; /* Subtle bottom border */
+    text-align: left; /* Center align the list items */
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition effects */
+  }
+  
+  .interests li:hover {
+    color: #007BFF; /* Change color on hover */
+    transform: scale(1.02); /* Slightly enlarge on hover */
+  }
+  
+  
